@@ -15,19 +15,18 @@
 .context-light, .bg-default {
 	color: rgba(0, 0, 0, 0.7);
 }
-
 @media (min-width: 991.98px) {
 	.telephone{
 		position: fixed;
-		right: 13px;
-		bottom: 140px;
+		right: 15px;
+		bottom: 100px;
 		background: #95C3C3;
 		transform: translatex(-50%);
 		border-radius: 10em;
-		box-shadow:#000000 1px 1px 10px;
+		box-shadow:#000000 1px 1px 10;
 	}
 	.telephone img{
-		width: 55px;
+		width: 50px;
 	}
 }
 a:focus,
@@ -3504,7 +3503,7 @@ html:not(.lt-ie10) .not-animated {
 	transition: .45s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
 	border-radius: 10em;
-	box-shadow:#000000 1px 1px 10px;
+	box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.25);
 }
 
 .ui-to-top:hover {
@@ -3847,6 +3846,7 @@ html.tablet .ui-to-top {
 }
 
 .page-header {
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -3915,7 +3915,7 @@ html.tablet .ui-to-top {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	color: #ffffff;
+	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.2;
@@ -4254,6 +4254,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
+	position: fixed;
 	left: 0;
 	top: -56px;
 	bottom: -56px;
@@ -4713,7 +4714,6 @@ html.rd-navbar-fixed-linked header {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
-	background: #95C3C3;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside,
@@ -4727,7 +4727,7 @@ html.rd-navbar-fixed-linked header {
 	position: relative;
 	display: flex;
 	align-items: center;
-	padding: 10px 0;
+	padding: 35px 0;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
