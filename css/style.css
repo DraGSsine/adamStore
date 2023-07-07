@@ -29,6 +29,15 @@
 		width: 50px;
 	}
 }
+.ml-10{
+	margin-left: -10px;
+}
+.py-10{
+	margin: 15px 0 0 0;
+}
+.button-container{
+	width: 100%;
+}
 a:focus,
 button:focus {
 	outline: none !important;
